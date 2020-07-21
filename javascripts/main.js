@@ -23,7 +23,7 @@ function getTitle() {
 	title = "";
 	title += getRandom(sListClean)
 	while(findLastConsonant(title) != 'r') {	
-		switch findLastConsonant(title) {
+		switch(findLastConsonant(title)) {
 			case 's':
 				word += " " + getRandom(dListClean);
 				break;
