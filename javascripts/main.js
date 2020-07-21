@@ -10,6 +10,7 @@ rListClean = ['aerie', 'aero', 'air', 'are', 'area', 'aria', 'aura', 'ear', 'eer
 
 function getRandom(list) {
 	return list[Math.floor(Math.random() * (list.length))]
+}
 
 function findLastConsonant(word) {
 	i = word.length - 1;
