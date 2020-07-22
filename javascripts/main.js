@@ -21,7 +21,7 @@ function findLastConsonant(word) {
 }
 
 function getTitle() {
-	title = "";
+	let title = "";
 	title += getRandom(sListClean)
 	while(findLastConsonant(title) != 'r') {	
 		switch(findLastConsonant(title)) {
