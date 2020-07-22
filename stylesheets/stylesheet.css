@@ -59,11 +59,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
 }
 
 h1 {
@@ -423,3 +421,20 @@ Small Device Styles
   }
 
 }
+/*************************************************
+CUSTOM CSS
+*************************************************/
+.links input {
+	height: 50px;
+	width: 100px;
+	
+}
+.title-small-text {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+
+
+
+

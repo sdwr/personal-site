@@ -13,7 +13,7 @@ function getRandom(list) {
 }
 
 function findLastConsonant(word) {
-	i = word.length - 1;
+	let i = word.length - 1;
 	while("aeiou".indexOf(word[i]) >= 0) {
 		i--;
 	return word[i]
@@ -39,6 +39,20 @@ function getTitle() {
 	return title;
 }
 
+function addTitleToPage() {
+	let title = getTitle();
+	let indexOfS = title.indexOf('s');
+	let indexOfD = title.indexOf('d');
+	let indexOfW = title.indexOf('w');
+	let indexOfR = title.indexOf('r');
+
+	document.getElementById("start-to-s").innerHTML = title.substring(0,indexOfS);
+	document.getElementById("s-to-d").innerHTML = title.substring(indexOfS+1,indexOfD);
+	document.getElementById("d-to-w").innerHTML = title.substring(indexOfD+1, indexOfW);
+	document.getElementById("w-to-r").innerHTML = title.substring(indexOfW+1, indexOfR);
+	document.getElementById("r-to-end").innerHTML = title.substring(indexOfR+1);
+
+}
 window.onload = function() {
-	document.getElementById('project_title').innerHTML = getTitle();
+	addTitleToPage();
 }
