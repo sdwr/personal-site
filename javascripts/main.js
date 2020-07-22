@@ -46,13 +46,20 @@ function addTitleToPage() {
 	let indexOfW = title.indexOf('w');
 	let indexOfR = title.indexOf('r');
 
-	document.getElementById("start-to-s").innerHTML = title.substring(0,indexOfS);
-	document.getElementById("s-to-d").innerHTML = title.substring(indexOfS+1,indexOfD);
-	document.getElementById("d-to-w").innerHTML = title.substring(indexOfD+1, indexOfW);
-	document.getElementById("w-to-r").innerHTML = title.substring(indexOfW+1, indexOfR);
-	document.getElementById("r-to-end").innerHTML = title.substring(indexOfR+1);
+	console.log(title.substring(0,indexOfS));
+	console.log(title.substring(indexOfS,indexOfD));
+	console.log(title.substring(indexOfD+1, indexOfW));
+	console.log(title.substring(indexOfW+1,indexOfR));
+	console.log(title.substring(indexOfR+1));
+
+	//document.getElementById("start-to-s").innerHTML = title.substring(0,indexOfS);
+	//document.getElementById("s-to-d").innerHTML = title.substring(indexOfS+1,indexOfD);
+	//document.getElementById("d-to-w").innerHTML = title.substring(indexOfD+1, indexOfW);
+	//document.getElementById("w-to-r").innerHTML = title.substring(indexOfW+1, indexOfR);
+	//document.getElementById("r-to-end").innerHTML = title.substring(indexOfR+1);
 
 }
+addTitleToPage();
 window.onload = function() {
 	addTitleToPage();
 }
