@@ -26,13 +26,13 @@ function getTitle() {
 	while(findLastConsonant(title) != 'r') {	
 		switch(findLastConsonant(title)) {
 			case 's':
-				word += " " + getRandom(dListClean);
+				title += " " + getRandom(dListClean);
 				break;
 			case 'd':
-				word += " " + getRandom(wListClean);
+				title += " " + getRandom(wListClean);
 				break;
 			case 'w':
-				word += " " + getRandom(rListClean);
+				title += " " + getRandom(rListClean);
 				break;
 		}
 	}
