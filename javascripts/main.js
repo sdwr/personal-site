@@ -1,11 +1,11 @@
-sListClean = ['as', 'asia', 'aside', 'ease', 'is', 'sad', 'sadware', 'said', 'saudi', 'sea',
+let sListClean = ['as', 'asia', 'aside', 'ease', 'is', 'sad', 'sadware', 'said', 'saudi', 'sea',
         'see', 'seed','side', 'so', 'sod', 'soda', 'suade', 'sud', 'sue', 'sued', 'suede', 'us',
         'use', 'used'];
-dListClean = ['adieu', 'ado', 'aid', 'aide', 'audio', 'dewier', 'die', 'do', 'doe',
+let dListClean = ['adieu', 'ado', 'aid', 'aide', 'audio', 'dewier', 'die', 'do', 'doe',
         'due', 'duo', 'id', 'idea', 'ode'];
-wListClean = ['aw', 'aware', 'awe', 'ew', 'ewe', 'ow', 'owe', 'ower', 'ware', 'war', 'we', 'wear', 'weir',
+let wListClean = ['aw', 'aware', 'awe', 'ew', 'ewe', 'ow', 'owe', 'ower', 'ware', 'war', 'we', 'wear', 'weir',
         'were', 'wire', 'woe', 'woo', 'wooer', 'wore'];
-rListClean = ['aerie', 'aero', 'air', 'are', 'area', 'aria', 'aura', 'ear', 'eerie', 'era', 'ere', 'ire', 
+let rListClean = ['aerie', 'aero', 'air', 'are', 'area', 'aria', 'aura', 'ear', 'eerie', 'era', 'ere', 'ire', 
         'oar', 'or', 'ore', 'our', 'roe', 'rue', 'urea'];
 
 function getRandom(list) {
