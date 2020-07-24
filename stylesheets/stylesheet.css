@@ -358,10 +358,6 @@ Full-Width Styles
   border-bottom: 1px solid #111;
 }
 
-#main_content {
-  padding-top: 40px;
-}
-
 #footer_wrap {
   background: #212121;
 }
@@ -434,7 +430,7 @@ CUSTOM CSS
 	font-weight: 400;
 }
 
-
-
-
+.back-button input {
+	height: 30px;
+}
 
