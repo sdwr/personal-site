@@ -32,17 +32,22 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
        	  <a href="index.html"><input type=button value='<- Back to Home'></a>
-		<h2>
-		Blog
-		</h2>
+	  <br>
+	  <br>
+	<h2>
+	Blog
+	</h2>
       </section>
-	  <section id="post_1" class="inner">
+      <section id="posts" class="inner">
+	  <div id="post_1">
 		  <h3>Example post</h3>
 		  <p>This is where a text post would live, ideally about technology or something.
 	Also, it feels weird typing directly into an html page. I would prefer saving posts as a markdown text file
 	and writing something to pull them into this page.
 		  </p>
-	  </section>
+	  </div>
+      </section>
+	  
     </div>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
@@ -52,6 +57,7 @@
       </footer>
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/javascripts/blog.js" type="text/javascript"></script>
   </body>
 </html>
